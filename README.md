@@ -1,2 +1,2 @@
-# curso-fullstack-aula-1
-Aula 1 do curso de fullstack do prof. Kelson
+# curso-fullstack
+Aqui são registradas as atividades do curso de fullstack do prof. Kelson
