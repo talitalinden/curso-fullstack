@@ -1,0 +1,77 @@
+/* Estilos personalizados para complementar o Bootstrap */
+
+/* Ajuste para o fixed navbar */
+body {
+    padding-top: 56px;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #3498db, #2c3e50);
+    padding: 100px 0;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid white;
+}
+
+/* Cards */
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Tabela personalizada */
+.table-hover tbody tr:hover {
+    background-color: rgba(52, 152, 219, 0.1);
+}
+
+/* Formulário de contato */
+form {
+    background: white;
+}
+
+/* Badges de habilidades */
+.badge {
+    font-size: 0.9rem;
+    padding: 0.5em 0.8em;
+}
+
+/* Ajustes de espaçamento para seções */
+section {
+    margin-bottom: 3rem;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+    .hero {
+        padding: 80px 0;
+    }
+    
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    /* Melhor legibilidade em mobile */
+    h1, h2, h3 {
+        word-wrap: break-word;
+    }
+}
+
+/* Estilo para elementos semânticos adicionais */
+address {
+    font-style: normal;
+}
+
+article {
+    margin-bottom: 2rem;
+}
