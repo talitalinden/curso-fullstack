@@ -1,0 +1,12 @@
+var produto = "Pijama"
+const codigo_produto = "123"
+
+function categoria () {
+    let categoria1 = "quarto"
+    
+    return `a categotia do produto é ${categoria1}`
+}
+
+console.log (`Nome do produto: ${produto}`)
+console.log(`Código do produto: ${codigo_produto}`)
+console.log(categoria())

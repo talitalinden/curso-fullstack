@@ -1,0 +1,10 @@
+const pessoa = {
+    nome: "Bilbo",
+    cpf: "123456-78",
+    cidade: "Hobbiton",
+    info: function() {
+        return `O nome: ${this.nome}, com cpf ${this.cpf} e cidade ${this.cidade}`
+    } 
+}
+
+console.log(pessoa.info())

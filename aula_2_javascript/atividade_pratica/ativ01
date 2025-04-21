@@ -1,0 +1,10 @@
+var nome = "Florentina";
+const cpf = "123456-98";
+
+function sobrenome() {
+    let sobreNome = "de Jesus";
+        return `Nome: ${nome} , Sobrenome: ${sobreNome} , CPF: ${cpf}`
+
+}
+
+console.log(sobrenome())

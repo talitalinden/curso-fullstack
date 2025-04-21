@@ -1,0 +1,13 @@
+const carreira = "dev";
+
+function minhaCarreira(carreira) {
+    return `Meu objetivo de carreira é me tornar um ${carreira}`;
+}
+
+const carreira2 = (carreira) => {
+    return `Meu objetivo de carreira é me tornar um ${carreira}`;
+};
+
+console.log(minhaCarreira());  // Chamando a função
+console.log(carreira2());     // Chamando a arrow function
+console.log(`Minha carreira é: ${carreira}`);  // Template string direto

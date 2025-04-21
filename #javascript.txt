@@ -1,0 +1,88 @@
+#javascript
+
+#Com o node instalado:
+- para executar o comando para imprimir o resultado, basta digitar node + nome do arquivo OU node + tecla tab (que vai procurando o arquivo).
+
+*Para entrar na pasta que precisa, cd + tab
+
+console.log("exibe na tela");
+
+// Declaração de variáveis
+let nome = "Bira";       // String
+const idade = 30;        // Number (constante)
+let temCarteira = true;  // Boolean
+
+OBS: let vs tipos de dados:
+
+    let é usado para declarar variáveis que podem ser reatribuídas (seu valor pode mudar).
+
+    O tipo da variável (number, string, boolean, etc.) é inferido automaticamente pelo JavaScript baseado no valor atribuído.
+
+    Por isso funciona tanto para números quanto para strings ou qualquer outro tipo
+	
+	let hora = 14;  // hora é do tipo number
+
+    let apenas declara que hora é uma variável
+
+    O JavaScript vê o valor 14 e entende que é um número
+
+Comparação com outros tipos:
+
+let nome = "João";    // string
+let idade = 30;       // number
+let ativo = true;     // boolean
+
+// Template literals (ES6)
+console.log(`Meu nome é ${nome} e tenho ${idade} anos.`);
+
+// Função tradicional
+function somar(a, b) {
+    return a + b;
+}
+
+// Arrow function (ES6)
+const multiplicar = (x, y) => x * y;
+
+console.log(somar(2, 3));       // 5
+console.log(multiplicar(4, 5)); // 20
+
+// Classes
+class Pessoa {
+    constructor(nome) {
+        this.nome = nome;
+    }
+    
+    falar() {
+        console.log(`Olá, eu sou ${this.nome}`);
+    }
+}
+
+const maria = new Pessoa("Maria");
+maria.falar();  // "Olá, eu sou Maria"
+
+// Promises e async/await (para operações assíncronas)
+async function buscarDados() {
+    try {
+        const resposta = await fetch('https://api.exemplo.com/dados');
+        const dados = await resposta.json();
+        console.log(dados);
+    } catch (erro) {
+        console.error("Erro ao buscar dados:", erro);
+    }
+}
+
+//Funções concatenadas
+
+var nome = "Rita Lee";
+const matricula = "321654";  //essas são variáveis globais
+
+function registroAluno() {
+    let curso = "Sistemas para Internet"; //essa é uma variável dentro de um escopo 
+    return `Aluna: ${nome} | Matricula: ${matricula} | Curso: ${curso}`; //variáveis dentro de escopo chama-se a função e não a variável. 
+									 //Atenção é que não são aspas, são a acentuação tipo crase ``
+}
+
+console.log(registroAluno());
+
+{} chaves em javascript é objeto
+const meuObjeto = {nome: "João", idade: 30};

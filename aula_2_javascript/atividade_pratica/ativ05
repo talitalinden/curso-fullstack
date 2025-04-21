@@ -1,0 +1,14 @@
+let carreira = "Programação"
+
+function profissao (carreira){
+
+    return `A minha profissão é ${carreira}`
+}
+
+const novaProfissao = (carreira) => {
+    return `A minha profissão atual é ${carreira}`
+}
+
+console.log(profissao(carreira))
+
+console.log(novaProfissao(carreira))

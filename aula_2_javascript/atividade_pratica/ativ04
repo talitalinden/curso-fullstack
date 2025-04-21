@@ -1,0 +1,13 @@
+const tecnologia = "React"
+
+function objetivoDoCurso(tecnologia){
+
+    return `Meu objetivo é aprender ${tecnologia}`
+}
+
+const objetivoSimplificado = (tecnologia) => {
+    return `Meu objetivo é também aprender ${tecnologia}`
+}
+
+console.log (objetivoDoCurso(tecnologia))
+console.log (objetivoSimplificado(tecnologia))

@@ -1,0 +1,13 @@
+var nome = "Juvenal"
+const matricula = "123456"
+
+
+function curso(){
+
+    let curso1 = "Sistemas"
+
+    return `Nome do aluno: ${nome} , matrícula: ${matricula} do curso: ${curso1}`
+
+}
+
+console.log(curso())
