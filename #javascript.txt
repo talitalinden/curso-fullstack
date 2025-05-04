@@ -86,3 +86,11 @@ console.log(registroAluno());
 
 {} chaves em javascript é objeto
 const meuObjeto = {nome: "João", idade: 30};
+
+
+
+#Para projetos NPM
+npm create vite@latest
+
+#Para iniciar o arquivo jsx
+rafce e aperta enter

@@ -1,0 +1,10 @@
+const nota = [9.0 , 8.0 , 7.5];
+const media = (nota[0] + nota[1] + nota[2]) / nota.length;
+
+if (media >= 7.0){
+    console.log (`O aluno foi aprovado`);
+}else{
+    console.log(`O aluno foi reprovado`)
+}
+
+
